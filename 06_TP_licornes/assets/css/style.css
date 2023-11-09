@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cormorant+Garamond&family=Courgette&family=Gluten&family=Poppins&family=Rubik+Beastly&display=swap');
+
+body{
+    background: url(../img/background.png);
+    font-family: Courgette;
+}
+
+header{
+    background-color: #65C1BE;
+    height: 50px;
+}
+
+header p{
+    color: #ffffff;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    float: left;
+}
+
+nav{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 70%;
+    height: 50px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+
+nav li{
+    height: 50px;
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 0 5px 0;
+    margin: 0;
+}
+
+nav li:hover{
+    background-color: black;
+}
+
+h1{
+    color: #65c1be;
+    background: url(../img/rainbow.png) no-repeat center;
+    text-align: center;
+    height: 200px;
+    padding-top: 120px;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    margin-top: 250px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+i{
+    color: #65c1be;
+    font-size: 26px;
+    margin-left: 15px;
+}
+
+h2{
+    display: inline-block;
+    color: #65c1be
+}
+
+h2.principe{
+    padding-top: 70px;
+}
+
+p.principe{
+    margin: 0 20px 0 30px;
+}
+
+div.photo1, 
+div.photo2,
+div.photo3,
+div.photo4{
+    display: inline-block;
+    width: 20%;
+    padding-left: 3%;
+    position: relative;
+}
+
+main img{
+    width: 100%;
+}
+
+main img:hover{
+    -ms-transform: scale(3) translate(30px);
+    -webkit-transform: scale(1.5)translate(30px);
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+
+div.img{
+    width: 100%;
+    overflow: hidden;
+}
+
+div.photo1 p, 
+div.photo2 p,
+div.photo3 p,
+div.photo4 p{
+    position: absolute;
+    top: 72%;
+    padding: 0;
+    background-color: rgba(8, 18, 17, 0.87);
+    color: #ffffff;
+    width: 87%;
+    height: 35px;
+    text-align: center;
+    padding: 15px 0 0 0 ;
+}
+
+.bas-main{
+    position: relative;
+}
+
+iframe{
+    display: inline-block;
+    width: 64%;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+aside{
+    position: absolute;
+    display: inline-block;
+    width: 35%;
+    top: 20px;
+    padding-left: 30px;
+}
+
+div.newsletter{
+    margin-top: 80px;
+}
+
+h3{
+    color: #65C1BE;
+}
+
+input,
+button{
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #65C1BE;
+    color: #ffffff;
+    height: 50px;
+}
+
+footer p{
+    margin: 25px 0 0 85%;
+    padding-top: 15px;
+}
+
+
+
+.clear{
+    clear: both;
+    content: "";
+    display: block;
+}

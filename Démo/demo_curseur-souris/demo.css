@@ -1,0 +1,195 @@
+body {
+  background-color: #d4ebf2;
+  color: #555;
+  font-size: 1.1em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+div:not(.container){
+  cursor: url(https://img.icons8.com/dotty/80/000000/mouse-animal.png), default;
+}
+.header{
+  background-color: coral;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em;
+  /*cursor: url(https://anvilgod.com/wiki/images/d/df/Souris_%28Transformice%29_%28fr%29.png), pointer;*/
+  /*cursor: url(https://www.pinclipart.com/picdir/middle/11-112756_plaid-mouse-clip-art-at-clker-dessin-de.png),pointer;*/
+}
+
+.container {
+  margin: 40px auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+table {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #eee;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.custom {
+  cursor: url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/cursor/clock-cursor.png), url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/cursor/clock-cursor.cur), pointer;
+}
+
+.auto {
+  cursor: auto;
+}
+
+.default {
+  cursor: default;
+}
+
+.none {
+  cursor: none;
+}
+
+.context-menu {
+  cursor: context-menu;
+}
+
+.help {
+  cursor: help;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.progress {
+  cursor: progress;
+}
+
+.wait {
+  cursor: wait;
+}
+
+.cell {
+  cursor: cell;
+}
+
+.crosshair {
+  cursor: crosshair;
+}
+
+.text {
+  cursor: text;
+}
+
+.vertical-text {
+  cursor: vertical-text;
+}
+
+.alias {
+  cursor: alias;
+}
+
+.copy {
+  cursor: copy;
+}
+
+.move {
+  cursor: move;
+}
+
+.no-drop {
+  cursor: no-drop;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.zoom-in {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.zoom-out {
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+.grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.n-resize {
+  cursor: n-resize;
+}
+
+.ne-resize {
+  cursor: ne-resize;
+}
+
+.e-resize {
+  cursor: e-resize;
+}
+
+.se-resize {
+  cursor: se-resize;
+}
+
+.s-resize {
+  cursor: s-resize;
+}
+
+.sw-resize {
+  cursor: sw-resize;
+}
+
+.w-resize {
+  cursor: w-resize;
+}
+
+.nw-resize {
+  cursor: nw-resize;
+}
+
+.se-resize {
+  cursor: se-resize;
+}
+
+.ew-resize {
+  cursor: ew-resize;
+}
+
+.ns-resize {
+  cursor: ns-resize;
+}
+
+.nesw-resize {
+  cursor: nesw-resize;
+}
+
+.nwse-resize {
+  cursor: nwse-resize;
+}
+
+.col-resize {
+  cursor: col-resize;
+}
+
+.row-resize {
+  cursor: row-resize;
+}
+
+.all-scroll {
+  cursor: all-scroll;
+}

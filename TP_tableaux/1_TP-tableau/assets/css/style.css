@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cormorant+Garamond&family=Courgette&family=Gluten&family=Montserrat&family=Pacifico&family=Poppins&family=Rubik+Beastly&family=Source+Code+Pro:wght@200&display=swap');
+
+body{
+    width: 40%;
+    margin: 0 auto;
+    background-color: gray;
+    font-family: Montserrat;
+}
+
+table{
+    background-color: #ffffff;
+    border-spacing: 0;
+}
+
+thead{
+    background-color: #075AA8;
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+thead p{
+    font-size: 50px;
+    margin: 0 0 5px 0;
+    font-weight: lighter;
+}
+
+h1{
+    color: #E6C921;
+    margin: 0;
+}
+
+h2{
+    color: #075AA8;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+tbody p{
+    margin: 0;
+}

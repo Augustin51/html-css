@@ -1,0 +1,38 @@
+body{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.haut{
+    background-color: #f8f5e2;
+    height: 100px;
+    text-align: center;
+}
+
+.gauche,
+.droite{
+    background-color: #00848e;
+    color: #ffffff;
+    width: 20%;
+    height: 650px;
+    text-align: center;
+}
+
+.milieu{
+    background-color: #003049;
+    color: #ffffff;
+    width: 60%;
+    height: 650px;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+.gauche,
+.milieu,
+.droite{
+    float: left;
+}

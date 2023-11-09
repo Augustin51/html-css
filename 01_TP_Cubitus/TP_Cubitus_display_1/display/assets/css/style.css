@@ -1,0 +1,27 @@
+div.blue{
+    display: inline-block;
+    background-color: blue;
+    border-radius: 25%;
+    border: 4px solid black;
+    width: 200px;
+    height: 200px;
+}
+div.yellow{
+    display: inline-block;
+    background-color: yellow;
+    border-radius: 25%;
+    border: 4px solid black;
+    width: 200px;
+    height: 200px;
+}
+div p{
+    text-align: center;
+    font-size: 25px;
+}
+
+div.ligne1,
+div.ligne2,
+div.ligne3,
+div.ligne4{
+    margin-bottom: 10px;
+}

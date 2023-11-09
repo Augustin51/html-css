@@ -1,0 +1,43 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 36px;
+    margin: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 4px #6495ED solid;
+    width: 100%;
+}
+
+td{
+    border: 2px #6495ED solid;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+}
+
+th,
+tfoot td{
+    border: 2px #6495ED dotted;
+    text-align: center;
+    background-color: #d5e6fd;
+    width: 25%;
+    height: 50px;
+    font-weight: bold;
+}
+
+td.air-france,
+td.alitalia{
+    background-color: #d5e6fd;
+    font-weight: bold;
+}
+
+td.alitalia{
+    border-top: 3px #6495ED dotted;
+}

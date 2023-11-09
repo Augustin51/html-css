@@ -1,0 +1,36 @@
+body{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.haut{
+    background-color: #f6f48d;
+    height: 100px;
+    text-align: center;
+}
+
+.gauche{
+    background-color: #90e177;
+    height: 650px;
+    width: 20%;
+    text-align: center;
+}
+
+.droite{
+    background-color: #05837a;
+    height: 650px;
+    width: 80%;
+    text-align: center;
+}
+
+.gauche,
+.droite{
+    float: left;
+}
+
+.clear {
+    clear: both;
+    content: "";
+    display: block;
+}

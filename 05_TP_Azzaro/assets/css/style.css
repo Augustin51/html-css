@@ -1,0 +1,235 @@
+body{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #dadada;
+}
+
+header{
+    background-color: #ffffff;
+    position: relative;
+    height: 158px;
+}
+
+header div{
+    display: inline-block;
+    width: 25%;
+}
+
+
+header>img{
+    margin: 35px 0 0 15px;
+    float: left;
+}
+
+div.boutique{
+    float: left;
+    margin-left: 15px;
+    width: 30%;
+}
+
+h1{
+    font-size: 45px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+p.vente{
+    color: #ff3a8e;
+    font-size: 20px;
+}
+
+div.besion-aide{
+    float: left;
+    margin-left: 150px;
+    margin-right: 0;
+}
+
+p.aide{
+    color: #01b0f0;
+    font-size: 30px;
+    height: 10px;
+    margin-top: 10px;
+}
+
+p.tel{
+    background: url(../img/aide.png) no-repeat;
+    height: 25px;
+    color: #01b0f0;
+    font-weight: bold;
+    padding: 3px 0 0 50px;
+    margin: 0;
+}
+
+p.horaire{
+    margin-top: 0px;
+}
+
+div.compte{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 110px;
+}
+
+p.mon-compte{
+    color: #ffffff;
+    text-align: center;
+    background-color: #01B0F0;
+    margin: 0 0 1px 0;
+    height: 30%;
+}
+
+div.article{
+    color: #ffffff;
+    background-color: #01B0F0;  
+    display: inline-block;
+    width: 100%;
+    height: 70%;
+}
+
+p.panier{
+    width: 75%;
+    float: right;
+}
+
+header ul{
+    padding-top: 0;
+    height: 30px;
+    list-style-type: none;
+    background-color: #01B0F0;
+}
+
+header li{
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 6px;
+}
+
+li.acceuil{
+    position: absolute;
+    background-color: #FF358B;
+    height: 24px;
+    width: 120px;
+    left: 0;
+}
+
+li.vetement{
+    margin-left: 90px;
+}
+
+main{
+    background-color: #ffffff;
+    position: relative;
+    height: 1100px;
+}
+
+main img:first-child{
+    width: 100%;
+}
+
+h2{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    font-size: 80px;
+}
+
+div.paiement{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+div.qui-somme-nous{
+    float: left;
+    width: 50%;
+    border-left: 1px gray solid;
+    border-right: 1px gray solid;
+    padding: 10px;
+}
+
+div.service{
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+
+div.service p{
+    display: inline-block;
+    width: 70%;
+    margin-left: 10px;
+}
+
+h3{
+    color: #01B0F0;
+    font-size: 24px;
+    margin: 0;
+}
+
+article{
+    float: left;
+    position: relative;
+    width: 30%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+article.n1{
+    margin: 10px 2% 0 3%;
+}
+
+article.n2{
+    margin-right: 2%;
+}
+
+h4{
+    background-color: #C0C0C0;
+    text-align: center;
+    margin-top: 0;
+    height: 25px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px black solid;
+}
+
+article img{
+    width: 30%;
+}
+
+article img[src*="robe"]{
+    height: 190px;
+}
+
+article img[src*="talons"],
+article img[src*="chemise"]{
+    margin-bottom: 70px;
+}
+
+article p{
+    display: inline-block;
+    position: absolute;
+    top: 23%;
+    width: 65%;
+    margin-left: 3%;
+}
+
+footer{
+    background-color: #01B0F0;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -16px;
+}
+
+footer p{
+    padding-top: 2%;
+}
+.clear{
+    clear: both;
+    content: "";
+    display: block;
+}

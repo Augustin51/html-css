@@ -1,0 +1,41 @@
+body{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+table{
+    border-spacing: 0;
+    width: 100%;
+}
+
+td{
+    height: 30px;
+    width: 30px;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+td:first-child{
+    border-left: 1px black solid;
+}
+
+tr.n1 td{
+    border-top: 1px black solid;
+}
+
+td.yellow{
+    background-color: #FBD802;
+}
+
+td.gray{
+    background-color: #828080;
+}
+
+td.black{
+    background-color: #000103;
+}
+
+td.blue{
+    background-color: #0624EA;
+}

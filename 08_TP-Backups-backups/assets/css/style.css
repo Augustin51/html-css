@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Comic+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+header{
+    background-color: #FA9100;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+header img{
+    height: 250px;
+    margin-top: -60px;
+}
+
+header nav{
+    font-family: 'Comic Neue', cursive;
+}
+
+header ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding-left: 0;
+}
+
+header li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+header ul li:first-child{
+    padding-left: 0;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+iframe{
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+}
+
+p.pourquoi{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+div.backup{
+    width: 60%;
+    margin: 0 auto;
+}
+
+div.mercy{
+    width: 70%;
+    float: left;
+    background-color: #E9E9E9;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+div.locale,
+div.cloud{
+    float: left;
+    width: 45%;
+}
+
+h3{
+    text-align: center;
+    margin-top: 5px;
+}
+
+div.cloud{
+    padding-left: 7%;
+}
+
+div.backup p.cote{
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 0;
+}
+
+div.backup p{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+div.data{
+    width: 20%;
+    float: left;
+    background-color: #FA9100;
+    border: 4px #FECB41 solid;
+    margin-left: 20px;
+}
+
+div.data{
+    padding: 20px;
+}
+
+div.heure{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.data p{
+    color: white;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+div.backup img{
+    height: 180px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+button{
+    background-color: #333333;
+    color: white;
+}
+
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.clear{
+    clear: both;
+    content: "";
+    display: block;
+}

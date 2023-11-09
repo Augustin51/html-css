@@ -1,0 +1,38 @@
+body{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.gauche,
+.droite{
+    float: left;
+    width: 50%;
+    height: 650px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.gauche{
+    background-color: #005e69;
+}
+
+.droite{
+    background-color: #509d61;
+}
+
+.bas{
+    background-color: #d3edaf;
+    height: 100px;
+    text-align: center; 
+}
+
+p{
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+    content: "";
+    display: block;
+}
